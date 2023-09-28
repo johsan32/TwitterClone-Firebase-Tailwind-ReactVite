@@ -1,0 +1,65 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.overflow-y-scroll::-webkit-scrollbar {
+  background: #4d4c4c;
+  width: 6px;
+}
+.overflow-y-scroll::-webkit-scrollbar-thumb {
+  background: #292929;
+  border-radius: 5px;
+
+}
+
+.overflow-y-auto::-webkit-scrollbar {
+  background: #4d4c4c;
+  width: 6px;
+}
+.overflow-y-auto::-webkit-scrollbar-thumb {
+  background: #292929;
+  border-radius: 5px;
+
+}
+.following-link{
+  text-decoration: blue;
+}
+@media (max-width: 768px) {
+  .overflow-y-auto::-webkit-scrollbar {
+      display: none;
+  }
+  .overflow-y-auto::-webkit-scrollbar-thumb{
+    display: none;
+  }
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vh;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 9998; 
+}
+select[data-te-select-init] option[data-te-select-icon] {
+  background-image: var(--te-select-icon);
+
+  background-repeat: no-repeat;
+  background-size: 16px 16px; 
+  padding-left: 24px; 
+}
+
+
+
