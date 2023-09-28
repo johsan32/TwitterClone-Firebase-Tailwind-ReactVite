@@ -38,6 +38,8 @@ API : RapidApi
 
 
 ## Önizleme
-![Ekran Görüntüsü](screen.png)
+![Ekran Görüntüsü](screen.PNG)
 
-![GIF](gif.gif)# TwitterClone-Firebase-Tailwind-ReactVite
+![GIF](gif.gif)
+
+# TwitterClone-Firebase-Tailwind-ReactVite
